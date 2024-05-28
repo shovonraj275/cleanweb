@@ -1,0 +1,1674 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ededed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-part {
+    display: inline-flex !important;
+}
+
+.container {
+    margin: 0 25px;
+}
+
+
+
+/* top header */
+section#top-header {
+    padding: 9px;
+    background: #ededed;
+    margin-left: 700px;
+}
+
+section#top-header div.card-part {}
+
+section#top-header div.card-part div.card {
+    margin: 0 34px;
+    color: #9f9f9f;
+}
+
+section#top-header div.card-part div.card:nth-child(1) {
+    margin-top: 5px;
+}
+
+section#top-header div.card-part div.card input {
+    padding: 5px;
+}
+
+section#top-header div.card-part div.card .fa {
+    margin-left: -20px;
+    background: #ededed;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+
+/* top header */
+
+
+/* low header */
+
+section#low-header {
+    background: #ededed;
+    padding: 28px 0;
+}
+
+
+section#low-header div.container div.logo {
+
+}
+
+section#low-header div.container div.logo img {
+
+}
+
+
+section#low-header div.menu {
+    float: right;
+}
+
+section#low-header div.menu div.main-nav {}
+
+section#low-header div.menu div.main-nav ul {}
+
+section#low-header div.menu div.main-nav ul li {
+    display: inline-flex;
+    border-left: 1px solid #cccccc !important;
+}
+
+section#low-header div.menu div.main-nav ul li a {
+    padding: 0 15px;
+    color: #666666;
+
+}
+
+section#low-header div.menu div.main-nav ul li a.active {
+    color: #ff5d30;
+}
+
+section#low-header div.menu div.main-nav ul li a:hover {
+    color: #ff5d30;
+}
+
+section#low-header div.menu div.main-nav ul li:first-child {
+    border-left: none !important;
+}
+
+
+/* mobile nav */
+.mobile-menu span {
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+.mobile-menu .OpenNAV:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    /*  */
+    z-index: 1;
+    overflow-x: hidden;
+    transform: 5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content a {
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1px 0;
+    color: #ff5d30;
+}
+
+.overlay-content a:hover {
+    color: ff5d30;
+}
+
+.overlay .btn-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+
+/* mobile nav */
+
+/* low header */
+/* banner */
+section#banner {}
+
+section#banner img {
+    width: 100%;
+}
+
+/* banner */
+/* contant */
+section#content {}
+
+section#content h3 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 28px;
+    color: #505050;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-style: italic;
+    padding: 5px 0;
+}
+
+
+section#content h3 br {}
+
+
+/* contant */
+
+
+/* portfolio */
+section#portfolio {
+    padding: 20px 0;
+}
+
+section#portfolio div.container {}
+
+section#portfolio div.container div.card-part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#portfolio div.container div.card-part div.card.frist-card {
+    width: 20%;
+}
+
+section#portfolio div.container div.card-part div.card.frist-card h3 {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    color: #8b8b8b;
+}
+
+
+
+section#portfolio div.container div.card-part div.card.frist-card p {
+    color: #8b8b8b;
+}
+
+
+
+section#portfolio div.container div.card-part div.card.last-card {
+    width: 80%;
+}
+
+section#portfolio div.container div.card-part div.card.last-card div.last-card-part {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card {
+    margin: 0px 15px;
+}
+
+section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card img {
+    width: 100%;
+}
+
+
+
+section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card p {
+    color: #8b8b8b;
+}
+
+
+
+section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card a {
+    color: #ff5d30;
+    margin-top: 5px;
+}
+
+
+/* portfolio */
+/* contact-us */
+section#contact {}
+
+section#contact div.container {}
+
+section#contact div.container div.card-part {}
+
+section#contact div.container div.card-part div.card {
+    margin: 0px 10px;
+    width: 33%;
+}
+
+section#contact div.container div.card-part div.card:first-child {
+    margin-left: 0 !important;
+}
+
+section#contact div.container div.card-part div.card:last-child {
+    margin-right: 0 !important;
+}
+
+section#contact div.container div.card-part div.card h3 {
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+section#contact div.container div.card-part div.card h4 {
+    margin: 20px 0;
+}
+
+
+
+section#contact div.container div.card-part div.card p {
+    text-align: justify;
+    color: #989898;
+}
+
+section#contact div.container div.card-part div.card div.input-card-part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#contact div.container div.card-part div.card div.input-card-part div.input-card {}
+
+section#contact div.container div.card-part div.card div.input-card-part div.w-75 {
+    width: 65%;
+}
+
+section#contact div.container div.card-part div.card div.input-card-part div.w-25 {
+    width: 45%;
+    margin-left: 10px;
+}
+
+section#contact div.container div.card-part div.card div.input-card-part div.input-card input {
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+    border-radius: 10%;
+    width: 100%;
+}
+
+section#contact div.container div.card-part div.card div.input-card-part div.input-card button {
+    padding: 5px 10px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    border: 2px solid #d2d2d2;
+    border-radius: 10%;
+    color: #ff5d30;
+}
+
+
+section#contact div.container div.card-part div.card div.social-card-part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#contact div.container div.card-part div.card div.social-card-part div.social-card {
+    width: 50%;
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+section#contact div.container div.card-part div.card div.social-card-part div.social-card:nth-child(1) {
+    margin-top: 0;
+}
+
+
+
+section#contact div.container div.card-part div.card div.social-card-part div.social-card i.fa {
+    padding: 10px;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 50%;
+}
+
+section#contact div.container div.card-part div.card div.social-card-part div.social-card a {
+    color: #989898;
+}
+
+
+
+
+section#contact div.container div.card-part div.card h5 {
+    margin: 15px 0;
+    color: #666666;
+}
+
+
+
+section#contact div.container div.card-part div.card h6 {
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+section#contact div.container div.card-part div.card:nth-child(2) a {
+    float: right;
+    color: #ff5d30;
+}
+
+section#contact div.container div.card-part div.card:nth-child(3) p {
+    margin-top: 10px;
+}
+
+section#contact div.container div.card-part div.card h6 {}
+
+section#contact div.container div.card-part div.card h6 a {
+    color: #ff5d30;
+    float: right;
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+
+/* contact-us */
+/* footer */
+section#footer {
+    padding: 20px 0;
+    overflow: hidden;
+    color: #666666;
+}
+
+section#footer div.container {}
+
+section#footer div.container div.float-left {
+    float: left;
+}
+
+
+
+section#footer div.container div.float-right {
+    float: right;
+}
+
+/* footer */
+
+/* responsive */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #ededed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-part {
+        display: inline-block !important;
+    }
+
+    .container {
+        margin: 0 25px;
+    }
+
+
+
+    /* top header */
+    section#top-header {
+        padding: 9px;
+        background: #ededed;
+        margin-left: 0px !important;
+    }
+
+    section#top-header div.card-part {}
+
+    section#top-header div.card-part div.card {
+        margin: 15px;
+        color: #9f9f9f;
+    }
+
+    section#top-header div.card-part div.card:nth-child(1) {
+        margin-top: 5px;
+    }
+
+    section#top-header div.card-part div.card input {
+        padding: 5px;
+    }
+
+    section#top-header div.card-part div.card .fa {
+        margin-left: -20px;
+        background: #ededed;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+
+    /* top header */
+
+
+    /* low header */
+
+    section#low-header {
+        background: #ededed;
+        padding: 28px 0;
+    }
+
+    section#low-header {}
+
+    section#low-header img {}
+
+
+
+    section#low-header div.menu {
+        float: right;
+    }
+
+    section#low-header div.menu div.main-nav {
+        display: none;
+    }
+
+    section#low-header div.menu div.main-nav ul {}
+
+    section#low-header div.menu div.main-nav ul li {
+        display: inline-flex;
+        border-left: 1px solid #cccccc !important;
+    }
+
+    section#low-header div.menu div.main-nav ul li a {
+        padding: 0 15px;
+        color: #666666;
+
+    }
+
+    section#low-header div.menu div.main-nav ul li a.active {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li a:hover {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li:first-child {
+        border-left: none !important;
+    }
+
+
+    /* mobile nav */
+    .mobile-menu span {
+        float: right;
+        margin-top: 0;
+        margin-right: 20px;
+        color: #505050;
+        font-size: 20px;
+        display: block !important;
+    }
+
+    .mobile-menu .OpenNAV:hover {
+        cursor: pointer;
+    }
+
+    .overlay {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        /*  */
+        z-index: 1;
+        overflow-x: hidden;
+        transform: 5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1px 0;
+        color: #ff5d30;
+    }
+
+    .overlay-content a:hover {
+        color: ff5d30;
+    }
+
+    .overlay .btn-close {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 4rem;
+        color: #fff;
+    }
+
+
+
+    /* mobile nav */
+
+    /* low header */
+    /* banner */
+    section#banner {}
+
+    section#banner img {
+        width: 100%;
+    }
+
+    /* banner */
+    /* contant */
+    section#content {}
+
+    section#content h3 {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #505050;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        font-style: italic;
+        padding: 5px 0;
+    }
+
+
+    section#content h3 br {}
+
+
+    /* contant */
+
+
+    /* portfolio */
+    section#portfolio {
+        padding: 20px 0;
+    }
+
+    section#portfolio div.container {}
+
+    section#portfolio div.container div.card-part {
+        display: inline-block !important;
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card {
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card h3 {
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.frist-card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card {
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part {
+        display: inline-block !important;
+        margin-top: 15px;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card {
+        margin: 10px 0;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card img {
+        width: 100%;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card a {
+        color: #ff5d30;
+        margin-top: 5px;
+    }
+
+
+    /* portfolio */
+    /* contact-us */
+    section#contact {}
+
+    section#contact div.container {}
+
+    section#contact div.container div.card-part {}
+
+    section#contact div.container div.card-part div.card {
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card:first-child {
+        margin-top: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card h3 {
+        margin-bottom: 20px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card h4 {
+        margin: 20px 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card p {
+        text-align: justify;
+        color: #989898;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card {}
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-75 {
+        width: 65%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-25 {
+        width: 45%;
+        margin-left: 10px;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card input {
+        border: 2px solid #d2d2d2;
+        padding: 5px;
+        border-radius: 10%;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card button {
+        padding: 5px 10px;
+        margin-left: 25px;
+        text-transform: uppercase;
+        border: 2px solid #d2d2d2;
+        border-radius: 10%;
+        color: #ff5d30;
+    }
+
+
+    section#contact div.container div.card-part div.card div.social-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card {
+        width: 50%;
+        margin-top: 5px;
+        padding: 5px 0;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card:nth-child(1) {
+        margin-top: 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card i.fa {
+        padding: 10px;
+        background-color: #333333;
+        color: #fff;
+        border-radius: 50%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card a {
+        color: #989898;
+    }
+
+
+
+
+    section#contact div.container div.card-part div.card h5 {
+        margin: 15px 0;
+        color: #666666;
+    }
+
+
+
+    section#contact div.container div.card-part div.card h6 {
+        margin-bottom: 10px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(2) a {
+        float: right;
+        color: #ff5d30;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(3) p {
+        margin-top: 10px;
+    }
+
+    section#contact div.container div.card-part div.card h6 {}
+
+    section#contact div.container div.card-part div.card h6 a {
+        color: #ff5d30;
+        float: right;
+        font-size: 18px;
+        margin: 10px 0;
+
+    }
+
+    /* contact-us */
+    /* footer */
+    section#footer {
+        padding: 20px 0;
+        overflow: hidden;
+        color: #666666;
+    }
+
+    section#footer div.container {}
+
+    section#footer div.container div.float-left {
+        float: none !important;
+    }
+
+
+
+    section#footer div.container div.float-right {
+        float: none !important;
+        margin-top: 5px;
+    }
+
+    /* footer */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #ededed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-part {
+        display: inline-flex !important;
+    }
+
+    .container {
+        margin: 0 25px;
+    }
+
+
+
+    /* top header */
+    section#top-header {
+        padding: 9px;
+        background: #ededed;
+        margin-left: 0px;
+    }
+
+    section#top-header div.card-part {}
+
+    section#top-header div.card-part div.card {
+        margin: 0 34px;
+        color: #9f9f9f;
+    }
+
+    section#top-header div.card-part div.card:nth-child(1) {
+        margin-top: 5px;
+    }
+
+    section#top-header div.card-part div.card input {
+        padding: 5px;
+    }
+
+    section#top-header div.card-part div.card .fa {
+        margin-left: -20px;
+        background: #ededed;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+
+    /* top header */
+
+
+    /* low header */
+
+    section#low-header {
+        background: #ededed;
+        padding: 28px 0;
+    }
+
+    section#low-header {}
+
+    section#low-header img {}
+
+
+
+    section#low-header div.menu {
+        float: right;
+    }
+
+    section#low-header div.menu div.main-nav {
+        display: none;
+    }
+
+    section#low-header div.menu div.main-nav ul {}
+
+    section#low-header div.menu div.main-nav ul li {
+        display: inline-flex;
+        border-left: 1px solid #cccccc !important;
+    }
+
+    section#low-header div.menu div.main-nav ul li a {
+        padding: 0 15px;
+        color: #666666;
+
+    }
+
+    section#low-header div.menu div.main-nav ul li a.active {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li a:hover {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li:first-child {
+        border-left: none !important;
+    }
+
+
+    /* mobile nav */
+    .mobile-menu span {
+        float: right;
+        margin-top: 0;
+        margin-right: 20px;
+        color: #ff5d30;
+        font-size: 20px;
+        display: block;
+    }
+
+    .mobile-menu .OpenNAV:hover {
+        cursor: pointer;
+    }
+
+    .overlay {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        /*  */
+        z-index: 1;
+        overflow-x: hidden;
+        transform: 5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1px 0;
+        color: #ff5d30;
+    }
+
+    .overlay-content a:hover {
+        color: ff5d30;
+    }
+
+    .overlay .btn-close {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 4rem;
+        color: #fff;
+    }
+
+
+
+    /* mobile nav */
+
+    /* low header */
+    /* banner */
+    section#banner {}
+
+    section#banner img {
+        width: 100%;
+    }
+
+    /* banner */
+    /* contant */
+    section#content {}
+
+    section#content h3 {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #505050;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        font-style: italic;
+        padding: 5px 0;
+    }
+
+
+    section#content h3 br {}
+
+
+    /* contant */
+
+
+    /* portfolio */
+    section#portfolio {
+        padding: 20px 0;
+    }
+
+    section#portfolio div.container {}
+
+    section#portfolio div.container div.card-part {
+        display: inline-block !important;
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card {
+        width: 100% !important;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card h3 {
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.frist-card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card {
+        width: 100% !important;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part {
+        display: inline-flex;
+        margin-top: 15px;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card {
+        margin: 0px 15px;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card img {
+        width: 100%;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card a {
+        color: #ff5d30;
+        margin-top: 5px;
+    }
+
+
+    /* portfolio */
+    /* contact-us */
+    section#contact {}
+
+    section#contact div.container {}
+
+    section#contact div.container div.card-part {}
+
+    section#contact div.container div.card-part div.card {
+        margin: 0px 10px;
+        width: 33%;
+    }
+
+    section#contact div.container div.card-part div.card:first-child {
+        margin-left: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card:last-child {
+        margin-right: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card h3 {
+        margin-bottom: 20px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card h4 {
+        margin: 20px 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card p {
+        text-align: justify;
+        color: #989898;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card {}
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-75 {
+        width: 65%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-25 {
+        width: 45%;
+        margin-left: 10px;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card input {
+        border: 2px solid #d2d2d2;
+        padding: 5px;
+        border-radius: 10%;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card button {
+        padding: 5px 10px;
+        margin-left: 25px;
+        text-transform: uppercase;
+        border: 2px solid #d2d2d2;
+        border-radius: 10%;
+        color: #ff5d30;
+    }
+
+
+    section#contact div.container div.card-part div.card div.social-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card {
+        width: 50%;
+        margin-top: 5px;
+        padding: 5px 0;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card:nth-child(1) {
+        margin-top: 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card i.fa {
+        padding: 10px;
+        background-color: #333333;
+        color: #fff;
+        border-radius: 50%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card a {
+        color: #989898;
+    }
+
+
+
+
+    section#contact div.container div.card-part div.card h5 {
+        margin: 15px 0;
+        color: #666666;
+    }
+
+
+
+    section#contact div.container div.card-part div.card h6 {
+        margin-bottom: 10px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(2) a {
+        float: right;
+        color: #ff5d30;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(3) p {
+        margin-top: 10px;
+    }
+
+    section#contact div.container div.card-part div.card h6 {}
+
+    section#contact div.container div.card-part div.card h6 a {
+        color: #ff5d30;
+        float: right;
+        font-size: 18px;
+        margin: 10px 0;
+
+    }
+
+    /* contact-us */
+    /* footer */
+    section#footer {
+        padding: 20px 0;
+        overflow: hidden;
+        color: #666666;
+    }
+
+    section#footer div.container {}
+
+    section#footer div.container div.float-left {
+        float: left;
+    }
+
+
+
+    section#footer div.container div.float-right {
+        float: right;
+    }
+
+    /* footer */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #ededed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-part {
+        display: inline-flex !important;
+    }
+
+    .container {
+        margin: 0 25px;
+    }
+
+
+
+    /* top header */
+    section#top-header {
+        padding: 9px;
+        background: #ededed;
+        margin-left: 0px;
+    }
+
+    section#top-header div.card-part {}
+
+    section#top-header div.card-part div.card {
+        margin: 0 34px;
+        color: #9f9f9f;
+    }
+
+    section#top-header div.card-part div.card:nth-child(1) {
+        margin-top: 5px;
+    }
+
+    section#top-header div.card-part div.card input {
+        padding: 5px;
+    }
+
+    section#top-header div.card-part div.card .fa {
+        margin-left: -20px;
+        background: #ededed;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+
+    /* top header */
+
+
+    /* low header */
+
+    section#low-header {
+        background: #ededed;
+        padding: 28px 0;
+    }
+
+    section#low-header {
+        
+    }
+
+    section#low-header img {
+        margin-left: 225px;
+    }
+
+
+
+    section#low-header div.menu {
+        float: right;
+        width: 105%;
+    }
+
+    section#low-header div.menu div.main-nav {
+       
+        
+    }
+
+    section#low-header div.menu div.main-nav ul {}
+
+    section#low-header div.menu div.main-nav ul li {
+        display: inline-flex;
+        border-left: 1px solid #cccccc !important;
+    }
+
+    section#low-header div.menu div.main-nav ul li a {
+        padding: 0 15px;
+        color: #666666;
+
+    }
+
+    section#low-header div.menu div.main-nav ul li a.active {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li a:hover {
+        color: #ff5d30;
+    }
+
+    section#low-header div.menu div.main-nav ul li:first-child {
+        border-left: none !important;
+    }
+
+
+    /* mobile nav */
+    .mobile-menu span {
+        float: right;
+        margin-top: 0;
+        margin-right: 20px;
+        color: #fff;
+        font-size: 20px;
+        display: none;
+    }
+
+    .mobile-menu .OpenNAV:hover {
+        cursor: pointer;
+    }
+
+    .overlay {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        /*  */
+        z-index: 1;
+        overflow-x: hidden;
+        transform: 5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1px 0;
+        color: #ff5d30;
+    }
+
+    .overlay-content a:hover {
+        color: ff5d30;
+    }
+
+    .overlay .btn-close {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 4rem;
+        color: #fff;
+    }
+
+
+
+    /* mobile nav */
+
+    /* low header */
+    /* banner */
+    section#banner {}
+
+    section#banner img {
+        width: 100%;
+    }
+
+    /* banner */
+    /* contant */
+    section#content {}
+
+    section#content h3 {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 24px;
+        color: #505050;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        font-style: italic;
+        padding: 5px 0;
+    }
+
+
+    section#content h3 br {}
+
+
+    /* contant */
+
+
+    /* portfolio */
+    section#portfolio {
+        padding: 20px 0;
+    }
+
+    section#portfolio div.container {}
+
+    section#portfolio div.container div.card-part {
+        display: inline-block !important;
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card {
+        width: 100% !important;
+    }
+
+    section#portfolio div.container div.card-part div.card.frist-card h3 {
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.frist-card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card {
+        width: 100%;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part {
+        display: inline-flex;
+        margin-top: 15px;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card {
+        margin: 0px 15px;
+    }
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card img {
+        width: 100%;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card p {
+        color: #8b8b8b;
+    }
+
+
+
+    section#portfolio div.container div.card-part div.card.last-card div.last-card-part div.last-Card a {
+        color: #ff5d30;
+        margin-top: 5px;
+    }
+
+
+    /* portfolio */
+    /* contact-us */
+    section#contact {}
+
+    section#contact div.container {}
+
+    section#contact div.container div.card-part {}
+
+    section#contact div.container div.card-part div.card {
+        margin: 0px 10px;
+        width: 33%;
+    }
+
+    section#contact div.container div.card-part div.card:first-child {
+        margin-left: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card:last-child {
+        margin-right: 0 !important;
+    }
+
+    section#contact div.container div.card-part div.card h3 {
+        margin-bottom: 20px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card h4 {
+        margin: 20px 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card p {
+        text-align: justify;
+        color: #989898;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card {}
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-75 {
+        width: 65%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.w-25 {
+        width: 45%;
+        margin-left: 10px;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card input {
+        border: 2px solid #d2d2d2;
+        padding: 5px;
+        border-radius: 10%;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.input-card-part div.input-card button {
+        padding: 5px 10px;
+        margin-left: 25px;
+        text-transform: uppercase;
+        border: 2px solid #d2d2d2;
+        border-radius: 10%;
+        color: #ff5d30;
+    }
+
+
+    section#contact div.container div.card-part div.card div.social-card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card {
+        width: 50%;
+        margin-top: 5px;
+        padding: 5px 0;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card:nth-child(1) {
+        margin-top: 0;
+    }
+
+
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card i.fa {
+        padding: 10px;
+        background-color: #333333;
+        color: #fff;
+        border-radius: 50%;
+    }
+
+    section#contact div.container div.card-part div.card div.social-card-part div.social-card a {
+        color: #989898;
+    }
+
+
+
+
+    section#contact div.container div.card-part div.card h5 {
+        margin: 15px 0;
+        color: #666666;
+    }
+
+
+
+    section#contact div.container div.card-part div.card h6 {
+        margin-bottom: 10px;
+        color: #666666;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(2) a {
+        float: right;
+        color: #ff5d30;
+    }
+
+    section#contact div.container div.card-part div.card:nth-child(3) p {
+        margin-top: 10px;
+    }
+
+    section#contact div.container div.card-part div.card h6 {}
+
+    section#contact div.container div.card-part div.card h6 a {
+        color: #ff5d30;
+        float: right;
+        font-size: 18px;
+        margin: 10px 0;
+
+    }
+
+    /* contact-us */
+    /* footer */
+    section#footer {
+        padding: 20px 0;
+        overflow: hidden;
+        color: #666666;
+    }
+
+    section#footer div.container {}
+
+    section#footer div.container div.float-left {
+        float: left;
+    }
+
+
+
+    section#footer div.container div.float-right {
+        float: right;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+/* responsive */
